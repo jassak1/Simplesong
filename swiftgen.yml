@@ -1,0 +1,11 @@
+strings:
+  inputs: Common/Resources/en.lproj
+  outputs:
+    - templateName: flat-swift5
+      output: Common/Resources/Generated/Strings.swift
+
+xcassets:
+  inputs: Common/Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Common/Resources/Generated/Assets.swift

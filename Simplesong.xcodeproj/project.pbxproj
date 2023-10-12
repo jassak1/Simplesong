@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A05D7312A73B28500EAC29A /* WidgetWorkshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D7302A73B28500EAC29A /* WidgetWorkshop.swift */; };
+		9A05D7322A73B28500EAC29A /* WidgetWorkshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D7302A73B28500EAC29A /* WidgetWorkshop.swift */; };
+		9A0EE6702A8D1D4600AABC44 /* VisualizerMdWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EE66F2A8D1D4600AABC44 /* VisualizerMdWidget.swift */; };
+		9A0EE6712A8D1D4600AABC44 /* VisualizerMdWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EE66F2A8D1D4600AABC44 /* VisualizerMdWidget.swift */; };
+		9A111C672A7D207300EB1BA4 /* HowToSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111C662A7D207200EB1BA4 /* HowToSelection.swift */; };
+		9A111C682A7D207300EB1BA4 /* HowToSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111C662A7D207200EB1BA4 /* HowToSelection.swift */; };
+		9A111C6A2A7D2A2B00EB1BA4 /* LabelCenterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111C692A7D2A2B00EB1BA4 /* LabelCenterStyle.swift */; };
+		9A111C6B2A7D2A2C00EB1BA4 /* LabelCenterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111C692A7D2A2B00EB1BA4 /* LabelCenterStyle.swift */; };
+		9A1601112AA7BCF800E3FD90 /* RadioAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1601102AA7BCF800E3FD90 /* RadioAction.swift */; };
+		9A1601122AA7BCF800E3FD90 /* RadioAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1601102AA7BCF800E3FD90 /* RadioAction.swift */; };
+		9A1B89252A70318100774C7F /* RectangleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B89242A70318100774C7F /* RectangleWidget.swift */; };
+		9A1B89262A70318100774C7F /* RectangleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B89242A70318100774C7F /* RectangleWidget.swift */; };
+		9A1B89282A70379D00774C7F /* WidgampWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B89272A70379D00774C7F /* WidgampWidget.swift */; };
+		9A1B89292A70379D00774C7F /* WidgampWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B89272A70379D00774C7F /* WidgampWidget.swift */; };
+		9A1C18F02A73D66E00548716 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C18EF2A73D66E00548716 /* FileManager.swift */; };
+		9A1C18F12A73D66E00548716 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C18EF2A73D66E00548716 /* FileManager.swift */; };
+		9A1C18F32A73D73800548716 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C18F22A73D73800548716 /* URL.swift */; };
+		9A1C18F42A73D73800548716 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C18F22A73D73800548716 /* URL.swift */; };
+		9A1C18F52A73E1D000548716 /* SimplesongWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0E92A63DE9600CE7DFE /* SimplesongWidget.swift */; };
+		9A22BF4C2A72FB020087E398 /* JustArtworkWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22BF4B2A72FB020087E398 /* JustArtworkWidget.swift */; };
+		9A22BF4D2A72FB020087E398 /* JustArtworkWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A22BF4B2A72FB020087E398 /* JustArtworkWidget.swift */; };
+		9A32ACBB2A60387900732B23 /* SimplesongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A32ACBA2A60387900732B23 /* SimplesongApp.swift */; };
+		9A32ACBF2A60387900732B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A32ACBE2A60387900732B23 /* Assets.xcassets */; };
+		9A32ACCA2A6038B900732B23 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9A32ACC92A6038B900732B23 /* swiftgen.yml */; };
+		9A32ACCF2A60391C00732B23 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A32ACCE2A60391C00732B23 /* Assets.swift */; };
+		9A4514C82AA4E288005EB502 /* RadioIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DEE62AA1295200E8A648 /* RadioIntent.swift */; };
+		9A4514CF2AA4F328005EB502 /* RadioIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DEE62AA1295200E8A648 /* RadioIntent.swift */; };
+		9A516E422A7D4C7400016705 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E412A7D4C7400016705 /* AboutView.swift */; };
+		9A516E432A7D4C7400016705 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E412A7D4C7400016705 /* AboutView.swift */; };
+		9A516E452A7D4D4500016705 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E442A7D4D4500016705 /* FAQView.swift */; };
+		9A516E462A7D4D4500016705 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E442A7D4D4500016705 /* FAQView.swift */; };
+		9A516E482A7D4EA500016705 /* SettingsNavPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E472A7D4EA500016705 /* SettingsNavPath.swift */; };
+		9A516E492A7D4EA500016705 /* SettingsNavPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A516E472A7D4EA500016705 /* SettingsNavPath.swift */; };
+		9A5214022A619D1200C53CFC /* WidgetKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5214012A619D1200C53CFC /* WidgetKind.swift */; };
+		9A5214052A61A2CB00C53CFC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5214042A61A2CB00C53CFC /* View.swift */; };
+		9A5845B82A9131B70071C7A4 /* PremiumWidgetOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5845B72A9131B70071C7A4 /* PremiumWidgetOverlay.swift */; };
+		9A5845B92A9131B70071C7A4 /* PremiumWidgetOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5845B72A9131B70071C7A4 /* PremiumWidgetOverlay.swift */; };
+		9A58DDBB2A7F970F00ADB670 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDBA2A7F970F00ADB670 /* RequestView.swift */; };
+		9A58DDBC2A7F970F00ADB670 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDBA2A7F970F00ADB670 /* RequestView.swift */; };
+		9A58DDBE2A7F98B800ADB670 /* MusicAccessDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDBD2A7F98B800ADB670 /* MusicAccessDesc.swift */; };
+		9A58DDBF2A7F98B800ADB670 /* MusicAccessDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDBD2A7F98B800ADB670 /* MusicAccessDesc.swift */; };
+		9A58DDC12A7FA28300ADB670 /* WidgetAccessOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDC02A7FA28300ADB670 /* WidgetAccessOverlay.swift */; };
+		9A58DDC22A7FA28300ADB670 /* WidgetAccessOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58DDC02A7FA28300ADB670 /* WidgetAccessOverlay.swift */; };
+		9A597ADE2AA659FE0038C727 /* RadioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94E95B2AA3A54200B720FB /* RadioProvider.swift */; };
+		9A6520752A74394200C8B63D /* TransparentBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6520742A74394200C8B63D /* TransparentBgView.swift */; };
+		9A6520762A74394200C8B63D /* TransparentBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6520742A74394200C8B63D /* TransparentBgView.swift */; };
+		9A6623D52AA1D59A00D159A1 /* RadioMdModernWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6623D32AA1D59A00D159A1 /* RadioMdModernWidget.swift */; };
+		9A6BC9182A60463900C1E1F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A6BC91A2A60463900C1E1F7 /* Localizable.strings */; };
+		9A6BC91C2A60466B00C1E1F7 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6BC91B2A60466B00C1E1F7 /* Strings.swift */; };
+		9A75CC372A6EF95400BA20E5 /* ShuffleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75CC362A6EF95400BA20E5 /* ShuffleWidget.swift */; };
+		9A75CC382A6EF95400BA20E5 /* ShuffleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75CC362A6EF95400BA20E5 /* ShuffleWidget.swift */; };
+		9A75CC392A6EFA2200BA20E5 /* SimpleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0F62A63DF5F00CE7DFE /* SimpleProvider.swift */; };
+		9A75CC3A2A6EFAC500BA20E5 /* SimpleIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0FB2A63E2DA00CE7DFE /* SimpleIntent.swift */; };
+		9A8126BD2A7FD2FE00FC73D6 /* StorekitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8126BC2A7FD2FE00FC73D6 /* StorekitService.swift */; };
+		9A8126BE2A7FD2FE00FC73D6 /* StorekitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8126BC2A7FD2FE00FC73D6 /* StorekitService.swift */; };
+		9A8EA0E32A63DE9500CE7DFE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8EA0E22A63DE9500CE7DFE /* WidgetKit.framework */; };
+		9A8EA0E52A63DE9500CE7DFE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8EA0E42A63DE9500CE7DFE /* SwiftUI.framework */; };
+		9A8EA0E82A63DE9600CE7DFE /* SimplesongWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0E72A63DE9500CE7DFE /* SimplesongWidgetBundle.swift */; };
+		9A8EA0EA2A63DE9600CE7DFE /* SimplesongWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0E92A63DE9600CE7DFE /* SimplesongWidget.swift */; };
+		9A8EA0F02A63DE9700CE7DFE /* SimplesongWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9A8EA0E02A63DE9500CE7DFE /* SimplesongWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A8EA0F72A63DF5F00CE7DFE /* SimpleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0F62A63DF5F00CE7DFE /* SimpleProvider.swift */; };
+		9A8EA0F82A63E0B100CE7DFE /* WidgetKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5214012A619D1200C53CFC /* WidgetKind.swift */; };
+		9A8EA0FC2A63E2DA00CE7DFE /* SimpleIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EA0FB2A63E2DA00CE7DFE /* SimpleIntent.swift */; };
+		9A8EA0FD2A63E35800CE7DFE /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6BC91B2A60466B00C1E1F7 /* Strings.swift */; };
+		9A91BB832A6140D8006B4620 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB822A6140D8006B4620 /* DI.swift */; };
+		9A91BB852A61413A006B4620 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB842A61413A006B4620 /* Router.swift */; };
+		9A91BB882A614266006B4620 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB872A614266006B4620 /* HomeView.swift */; };
+		9A91BB8A2A61437C006B4620 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB892A61437C006B4620 /* HomeVM.swift */; };
+		9A91BB8E2A614A06006B4620 /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB8D2A614A06006B4620 /* HowToView.swift */; };
+		9A91BB902A614A16006B4620 /* HowToVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB8F2A614A16006B4620 /* HowToVM.swift */; };
+		9A91BB922A614A21006B4620 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB912A614A21006B4620 /* SettingsView.swift */; };
+		9A91BB942A614A2D006B4620 /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB932A614A2D006B4620 /* SettingsVM.swift */; };
+		9A91BB972A614E83006B4620 /* WidgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB962A614E83006B4620 /* WidgetCategory.swift */; };
+		9A94E95A2AA3A4A700B720FB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A94E9592AA3A4A700B720FB /* StoreKit.framework */; };
+		9A94E95D2AA3A54200B720FB /* RadioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94E95B2AA3A54200B720FB /* RadioProvider.swift */; };
+		9A94E95F2AA3B5D100B720FB /* RadioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94E95E2AA3B5D100B720FB /* RadioInfo.swift */; };
+		9A94E9602AA3B5D100B720FB /* RadioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94E95E2AA3B5D100B720FB /* RadioInfo.swift */; };
+		9AA4AA322AA283D900F038D4 /* RadioStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4AA312AA283D900F038D4 /* RadioStations.swift */; };
+		9AA4AA332AA283D900F038D4 /* RadioStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4AA312AA283D900F038D4 /* RadioStations.swift */; };
+		9AB3AE892A69CBD000426F95 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA4E332A64677300E846F7 /* MusicService.swift */; };
+		9AB7CE3B2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7CE3A2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift */; };
+		9AB7CE3C2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7CE3A2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift */; };
+		9ABD23B52A8E361E00D818F5 /* GifIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD23B42A8E361E00D818F5 /* GifIntent.swift */; };
+		9ABD23B62A8E361E00D818F5 /* GifIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD23B42A8E361E00D818F5 /* GifIntent.swift */; };
+		9AC540292A6318B200B871EE /* WorkshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC540282A6318B200B871EE /* WorkshopView.swift */; };
+		9AC5402D2A631AB600B871EE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5402C2A631AB600B871EE /* Image.swift */; };
+		9AC5402F2A63254400B871EE /* HomeViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5402E2A63254400B871EE /* HomeViewType.swift */; };
+		9AC540312A6327E700B871EE /* OptionallyHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC540302A6327E700B871EE /* OptionallyHidden.swift */; };
+		9AC633D62A6C570D00D315CC /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633D52A6C570D00D315CC /* CGColor.swift */; };
+		9AC633D72A6C570D00D315CC /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633D52A6C570D00D315CC /* CGColor.swift */; };
+		9AC633D82A6C5D0800D315CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A32ACBE2A60387900732B23 /* Assets.xcassets */; };
+		9AC633DA2A6C637C00D315CC /* PrevButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633D92A6C637C00D315CC /* PrevButtonLabel.swift */; };
+		9AC633DB2A6C637C00D315CC /* PrevButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633D92A6C637C00D315CC /* PrevButtonLabel.swift */; };
+		9AC633DD2A6C645E00D315CC /* NextButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633DC2A6C645E00D315CC /* NextButtonLabel.swift */; };
+		9AC633DE2A6C645E00D315CC /* NextButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633DC2A6C645E00D315CC /* NextButtonLabel.swift */; };
+		9AC633E02A6C657A00D315CC /* WidgetSharedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633DF2A6C657A00D315CC /* WidgetSharedVM.swift */; };
+		9AC633E12A6C657A00D315CC /* WidgetSharedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC633DF2A6C657A00D315CC /* WidgetSharedVM.swift */; };
+		9AC70A3F2A72A80200346EFA /* Translucent in Frameworks */ = {isa = PBXBuildFile; productRef = 9AC70A3E2A72A80200346EFA /* Translucent */; };
+		9AC70A412A72AD6D00346EFA /* TheControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC70A402A72AD6D00346EFA /* TheControlWidget.swift */; };
+		9AC70A422A72AD6D00346EFA /* TheControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC70A402A72AD6D00346EFA /* TheControlWidget.swift */; };
+		9AC8B7512A83FC0100055E1A /* WidgetGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8B7502A83FC0100055E1A /* WidgetGif.swift */; };
+		9AC8B7522A83FC0100055E1A /* WidgetGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8B7502A83FC0100055E1A /* WidgetGif.swift */; };
+		9AC8B7542A83FDA400055E1A /* GifProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8B7532A83FDA400055E1A /* GifProvider.swift */; };
+		9AC8B7552A83FDA400055E1A /* GifProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8B7532A83FDA400055E1A /* GifProvider.swift */; };
+		9ACA4E342A64677300E846F7 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA4E332A64677300E846F7 /* MusicService.swift */; };
+		9AD7BF002AA252DA001045C1 /* RadioCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7BEFF2AA252DA001045C1 /* RadioCountries.swift */; };
+		9AD7BF012AA252DA001045C1 /* RadioCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7BEFF2AA252DA001045C1 /* RadioCountries.swift */; };
+		9AE991D02AA7623B00F2499E /* RadioMdModernWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6623D32AA1D59A00D159A1 /* RadioMdModernWidget.swift */; };
+		9AEC9F6E2A604C1900D985D9 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F6D2A604C1900D985D9 /* AppConstant.swift */; };
+		9AEC9F712A60545700D985D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F702A60545700D985D9 /* MainView.swift */; };
+		9AEC9F732A60546500D985D9 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F722A60546500D985D9 /* MainVM.swift */; };
+		9AF41A4E2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF41A4D2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift */; };
+		9AF41A4F2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF41A4D2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift */; };
+		9AF5C83A2A6AAAF700CE8AAD /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F6D2A604C1900D985D9 /* AppConstant.swift */; };
+		9AF5C83C2A6AAB1C00CE8AAD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C83B2A6AAB1C00CE8AAD /* UserDefaults.swift */; };
+		9AF5C83D2A6AAB1C00CE8AAD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C83B2A6AAB1C00CE8AAD /* UserDefaults.swift */; };
+		9AF5C83F2A6AABBF00CE8AAD /* DefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C83E2A6AABBF00CE8AAD /* DefaultKey.swift */; };
+		9AF5C8402A6AABBF00CE8AAD /* DefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C83E2A6AABBF00CE8AAD /* DefaultKey.swift */; };
+		9AF5C8422A6AAE0F00CE8AAD /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C8412A6AAE0F00CE8AAD /* PlayerAction.swift */; };
+		9AF5C8432A6AAE0F00CE8AAD /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C8412A6AAE0F00CE8AAD /* PlayerAction.swift */; };
+		9AF5C8442A6ABF6200CE8AAD /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB822A6140D8006B4620 /* DI.swift */; };
+		9AF5C8452A6ABF9600CE8AAD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB842A61413A006B4620 /* Router.swift */; };
+		9AF5C8462A6ABFB700CE8AAD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F702A60545700D985D9 /* MainView.swift */; };
+		9AF5C8472A6ABFBA00CE8AAD /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC9F722A60546500D985D9 /* MainVM.swift */; };
+		9AF5C8482A6ABFBF00CE8AAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB872A614266006B4620 /* HomeView.swift */; };
+		9AF5C8492A6ABFC200CE8AAD /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB892A61437C006B4620 /* HomeVM.swift */; };
+		9AF5C84A2A6ABFC400CE8AAD /* WorkshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC540282A6318B200B871EE /* WorkshopView.swift */; };
+		9AF5C84B2A6ABFD300CE8AAD /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB8D2A614A06006B4620 /* HowToView.swift */; };
+		9AF5C84C2A6ABFD600CE8AAD /* HowToVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB8F2A614A16006B4620 /* HowToVM.swift */; };
+		9AF5C84D2A6ABFDA00CE8AAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB912A614A21006B4620 /* SettingsView.swift */; };
+		9AF5C84E2A6ABFDD00CE8AAD /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB932A614A2D006B4620 /* SettingsVM.swift */; };
+		9AF5C84F2A6ABFEA00CE8AAD /* WidgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BB962A614E83006B4620 /* WidgetCategory.swift */; };
+		9AF5C8502A6ABFF100CE8AAD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5214042A61A2CB00C53CFC /* View.swift */; };
+		9AF5C8512A6ABFF700CE8AAD /* OptionallyHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC540302A6327E700B871EE /* OptionallyHidden.swift */; };
+		9AF5C8522A6ABFFF00CE8AAD /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A32ACCE2A60391C00732B23 /* Assets.swift */; };
+		9AF5C8532A6AC00600CE8AAD /* HomeViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5402E2A63254400B871EE /* HomeViewType.swift */; };
+		9AF5C8542A6AC00D00CE8AAD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5402C2A631AB600B871EE /* Image.swift */; };
+		9AF5C8592A6AC9A900CE8AAD /* SimpleProviderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C8582A6AC9A900CE8AAD /* SimpleProviderVM.swift */; };
+		9AF5C85A2A6AC9A900CE8AAD /* SimpleProviderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C8582A6AC9A900CE8AAD /* SimpleProviderVM.swift */; };
+		9AF5C85C2A6ACB5C00CE8AAD /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C85B2A6ACB5C00CE8AAD /* SongInfo.swift */; };
+		9AF5C85D2A6ACB5C00CE8AAD /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5C85B2A6ACB5C00CE8AAD /* SongInfo.swift */; };
+		9AF5F9D12A72621F00B05206 /* BoomboxWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5F9D02A72621F00B05206 /* BoomboxWidget.swift */; };
+		9AF5F9D22A72621F00B05206 /* BoomboxWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5F9D02A72621F00B05206 /* BoomboxWidget.swift */; };
+		9AF5F9D62A72987900B05206 /* TheButtonWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5F9D52A72987900B05206 /* TheButtonWidget.swift */; };
+		9AF5F9D72A72987900B05206 /* TheButtonWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5F9D52A72987900B05206 /* TheButtonWidget.swift */; };
+		9AF5F9DA2A72A4DE00B05206 /* Translucent in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF5F9D92A72A4DE00B05206 /* Translucent */; };
+		9AF8C30A2A7FC028009E7444 /* IapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8C3092A7FC028009E7444 /* IapView.swift */; };
+		9AF8C30B2A7FC028009E7444 /* IapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8C3092A7FC028009E7444 /* IapView.swift */; };
+		9AFC5DC62A8A3F4F0029D013 /* VisualizerSmWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC5DC52A8A3F4F0029D013 /* VisualizerSmWidget.swift */; };
+		9AFC5DC72A8A3F4F0029D013 /* VisualizerSmWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC5DC52A8A3F4F0029D013 /* VisualizerSmWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8EA0EE2A63DE9700CE7DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A32ACAF2A60387900732B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8EA0DF2A63DE9500CE7DFE;
+			remoteInfo = SimplesongWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A8EA0F12A63DE9700CE7DFE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9A8EA0F02A63DE9700CE7DFE /* SimplesongWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A05D7302A73B28500EAC29A /* WidgetWorkshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetWorkshop.swift; sourceTree = "<group>"; };
+		9A0EE66F2A8D1D4600AABC44 /* VisualizerMdWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerMdWidget.swift; sourceTree = "<group>"; };
+		9A111C662A7D207200EB1BA4 /* HowToSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSelection.swift; sourceTree = "<group>"; };
+		9A111C692A7D2A2B00EB1BA4 /* LabelCenterStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCenterStyle.swift; sourceTree = "<group>"; };
+		9A1601102AA7BCF800E3FD90 /* RadioAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioAction.swift; sourceTree = "<group>"; };
+		9A1B89242A70318100774C7F /* RectangleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWidget.swift; sourceTree = "<group>"; };
+		9A1B89272A70379D00774C7F /* WidgampWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgampWidget.swift; sourceTree = "<group>"; };
+		9A1C18EF2A73D66E00548716 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		9A1C18F22A73D73800548716 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		9A22BF4B2A72FB020087E398 /* JustArtworkWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustArtworkWidget.swift; sourceTree = "<group>"; };
+		9A32ACB72A60387900732B23 /* Simplesong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simplesong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A32ACBA2A60387900732B23 /* SimplesongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplesongApp.swift; sourceTree = "<group>"; };
+		9A32ACBE2A60387900732B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A32ACC92A6038B900732B23 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		9A32ACCE2A60391C00732B23 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		9A516E412A7D4C7400016705 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9A516E442A7D4D4500016705 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		9A516E472A7D4EA500016705 /* SettingsNavPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavPath.swift; sourceTree = "<group>"; };
+		9A5214012A619D1200C53CFC /* WidgetKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetKind.swift; sourceTree = "<group>"; };
+		9A5214042A61A2CB00C53CFC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9A5845B72A9131B70071C7A4 /* PremiumWidgetOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumWidgetOverlay.swift; sourceTree = "<group>"; };
+		9A58DDBA2A7F970F00ADB670 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		9A58DDBD2A7F98B800ADB670 /* MusicAccessDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAccessDesc.swift; sourceTree = "<group>"; };
+		9A58DDC02A7FA28300ADB670 /* WidgetAccessOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetAccessOverlay.swift; sourceTree = "<group>"; };
+		9A6520742A74394200C8B63D /* TransparentBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBgView.swift; sourceTree = "<group>"; };
+		9A6623D32AA1D59A00D159A1 /* RadioMdModernWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMdModernWidget.swift; sourceTree = "<group>"; };
+		9A6BC9192A60463900C1E1F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A6BC91B2A60466B00C1E1F7 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		9A75CC362A6EF95400BA20E5 /* ShuffleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleWidget.swift; sourceTree = "<group>"; };
+		9A8126BC2A7FD2FE00FC73D6 /* StorekitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorekitService.swift; sourceTree = "<group>"; };
+		9A8EA0E02A63DE9500CE7DFE /* SimplesongWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SimplesongWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8EA0E22A63DE9500CE7DFE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9A8EA0E42A63DE9500CE7DFE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9A8EA0E72A63DE9500CE7DFE /* SimplesongWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplesongWidgetBundle.swift; sourceTree = "<group>"; };
+		9A8EA0E92A63DE9600CE7DFE /* SimplesongWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplesongWidget.swift; sourceTree = "<group>"; };
+		9A8EA0ED2A63DE9700CE7DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8EA0F62A63DF5F00CE7DFE /* SimpleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleProvider.swift; sourceTree = "<group>"; };
+		9A8EA0FB2A63E2DA00CE7DFE /* SimpleIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleIntent.swift; sourceTree = "<group>"; };
+		9A91BB822A6140D8006B4620 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		9A91BB842A61413A006B4620 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9A91BB872A614266006B4620 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A91BB892A61437C006B4620 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		9A91BB8D2A614A06006B4620 /* HowToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		9A91BB8F2A614A16006B4620 /* HowToVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVM.swift; sourceTree = "<group>"; };
+		9A91BB912A614A21006B4620 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9A91BB932A614A2D006B4620 /* SettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
+		9A91BB962A614E83006B4620 /* WidgetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCategory.swift; sourceTree = "<group>"; };
+		9A94E9592AA3A4A700B720FB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9A94E95B2AA3A54200B720FB /* RadioProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioProvider.swift; sourceTree = "<group>"; };
+		9A94E95E2AA3B5D100B720FB /* RadioInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioInfo.swift; sourceTree = "<group>"; };
+		9A97DEE62AA1295200E8A648 /* RadioIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioIntent.swift; sourceTree = "<group>"; };
+		9AA4AA312AA283D900F038D4 /* RadioStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStations.swift; sourceTree = "<group>"; };
+		9AB7CE3A2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMdRetroWidget.swift; sourceTree = "<group>"; };
+		9ABD23B42A8E361E00D818F5 /* GifIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifIntent.swift; sourceTree = "<group>"; };
+		9AC540282A6318B200B871EE /* WorkshopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopView.swift; sourceTree = "<group>"; };
+		9AC5402C2A631AB600B871EE /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9AC5402E2A63254400B871EE /* HomeViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewType.swift; sourceTree = "<group>"; };
+		9AC540302A6327E700B871EE /* OptionallyHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionallyHidden.swift; sourceTree = "<group>"; };
+		9AC633D52A6C570D00D315CC /* CGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
+		9AC633D92A6C637C00D315CC /* PrevButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevButtonLabel.swift; sourceTree = "<group>"; };
+		9AC633DC2A6C645E00D315CC /* NextButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonLabel.swift; sourceTree = "<group>"; };
+		9AC633DF2A6C657A00D315CC /* WidgetSharedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSharedVM.swift; sourceTree = "<group>"; };
+		9AC70A402A72AD6D00346EFA /* TheControlWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheControlWidget.swift; sourceTree = "<group>"; };
+		9AC8B7502A83FC0100055E1A /* WidgetGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetGif.swift; sourceTree = "<group>"; };
+		9AC8B7532A83FDA400055E1A /* GifProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifProvider.swift; sourceTree = "<group>"; };
+		9ACA4E2F2A6456F900E846F7 /* Simplesong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplesong.entitlements; sourceTree = "<group>"; };
+		9ACA4E302A64570800E846F7 /* SimplesongWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplesongWidgetExtension.entitlements; sourceTree = "<group>"; };
+		9ACA4E312A645EC800E846F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9ACA4E332A64677300E846F7 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		9AD7BEFF2AA252DA001045C1 /* RadioCountries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountries.swift; sourceTree = "<group>"; };
+		9AEC9F6D2A604C1900D985D9 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		9AEC9F702A60545700D985D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9AEC9F722A60546500D985D9 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		9AF41A4D2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioWidgetOverlay.swift; sourceTree = "<group>"; };
+		9AF5C83B2A6AAB1C00CE8AAD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		9AF5C83E2A6AABBF00CE8AAD /* DefaultKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKey.swift; sourceTree = "<group>"; };
+		9AF5C8412A6AAE0F00CE8AAD /* PlayerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
+		9AF5C8582A6AC9A900CE8AAD /* SimpleProviderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleProviderVM.swift; sourceTree = "<group>"; };
+		9AF5C85B2A6ACB5C00CE8AAD /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		9AF5F9D02A72621F00B05206 /* BoomboxWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomboxWidget.swift; sourceTree = "<group>"; };
+		9AF5F9D52A72987900B05206 /* TheButtonWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheButtonWidget.swift; sourceTree = "<group>"; };
+		9AF8C3092A7FC028009E7444 /* IapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IapView.swift; sourceTree = "<group>"; };
+		9AFC5DC52A8A3F4F0029D013 /* VisualizerSmWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerSmWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A32ACB42A60387900732B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF5F9DA2A72A4DE00B05206 /* Translucent in Frameworks */,
+				9A94E95A2AA3A4A700B720FB /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8EA0DD2A63DE9500CE7DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC70A3F2A72A80200346EFA /* Translucent in Frameworks */,
+				9A8EA0E52A63DE9500CE7DFE /* SwiftUI.framework in Frameworks */,
+				9A8EA0E32A63DE9500CE7DFE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A05D72F2A73B25A00EAC29A /* VM + Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC633DF2A6C657A00D315CC /* WidgetSharedVM.swift */,
+				9A05D7302A73B28500EAC29A /* WidgetWorkshop.swift */,
+			);
+			path = "VM + Model";
+			sourceTree = "<group>";
+		};
+		9A32ACAE2A60387900732B23 = {
+			isa = PBXGroup;
+			children = (
+				9ACA4E302A64570800E846F7 /* SimplesongWidgetExtension.entitlements */,
+				9A32ACC92A6038B900732B23 /* swiftgen.yml */,
+				9A32ACCB2A6038C400732B23 /* Common */,
+				9A32ACB92A60387900732B23 /* Simplesong */,
+				9A8EA0E62A63DE9500CE7DFE /* SimplesongWidget */,
+				9A8EA0E12A63DE9500CE7DFE /* Frameworks */,
+				9A32ACB82A60387900732B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A32ACB82A60387900732B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A32ACB72A60387900732B23 /* Simplesong.app */,
+				9A8EA0E02A63DE9500CE7DFE /* SimplesongWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A32ACB92A60387900732B23 /* Simplesong */ = {
+			isa = PBXGroup;
+			children = (
+				9ACA4E312A645EC800E846F7 /* Info.plist */,
+				9ACA4E2F2A6456F900E846F7 /* Simplesong.entitlements */,
+				9AEC9F6F2A60544100D985D9 /* MainScreen */,
+				9A91BB862A614253006B4620 /* HomeTab */,
+				9A91BB8B2A6149E2006B4620 /* HowToTab */,
+				9A91BB8C2A6149F0006B4620 /* SettingsTab */,
+				9A32ACBA2A60387900732B23 /* SimplesongApp.swift */,
+			);
+			path = Simplesong;
+			sourceTree = "<group>";
+		};
+		9A32ACCB2A6038C400732B23 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9ACA4E322A64675C00E846F7 /* Services */,
+				9A5214032A61A2B100C53CFC /* Components */,
+				9A91BB982A615247006B4620 /* Extensions */,
+				9A91BB812A6140C6006B4620 /* Utils */,
+				9A91BB952A614DE3006B4620 /* Models */,
+				9A32ACCC2A6038D000732B23 /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9A32ACCC2A6038D000732B23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A32ACCD2A60390400732B23 /* Generated */,
+				9A32ACBE2A60387900732B23 /* Assets.xcassets */,
+				9A6BC91A2A60463900C1E1F7 /* Localizable.strings */,
+				9AEC9F6D2A604C1900D985D9 /* AppConstant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A32ACCD2A60390400732B23 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A32ACCE2A60391C00732B23 /* Assets.swift */,
+				9A6BC91B2A60466B00C1E1F7 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		9A4BA7FF2A8154C500160CC4 /* Visualizer */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC5DC52A8A3F4F0029D013 /* VisualizerSmWidget.swift */,
+				9A0EE66F2A8D1D4600AABC44 /* VisualizerMdWidget.swift */,
+			);
+			path = Visualizer;
+			sourceTree = "<group>";
+		};
+		9A5214032A61A2B100C53CFC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9AC540302A6327E700B871EE /* OptionallyHidden.swift */,
+				9AC633D92A6C637C00D315CC /* PrevButtonLabel.swift */,
+				9AC633DC2A6C645E00D315CC /* NextButtonLabel.swift */,
+				9A58DDC02A7FA28300ADB670 /* WidgetAccessOverlay.swift */,
+				9A5845B72A9131B70071C7A4 /* PremiumWidgetOverlay.swift */,
+				9AF41A4D2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift */,
+				9A111C692A7D2A2B00EB1BA4 /* LabelCenterStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A6623D62AA1D64300D159A1 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				9A6623D32AA1D59A00D159A1 /* RadioMdModernWidget.swift */,
+				9AB7CE3A2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		9A8EA0E12A63DE9500CE7DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A94E9592AA3A4A700B720FB /* StoreKit.framework */,
+				9A8EA0E22A63DE9500CE7DFE /* WidgetKit.framework */,
+				9A8EA0E42A63DE9500CE7DFE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A8EA0E62A63DE9500CE7DFE /* SimplesongWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9A8EA0F52A63DEE600CE7DFE /* View */,
+				9A8EA0F92A63E22600CE7DFE /* Provider */,
+				9A8EA0FA2A63E23100CE7DFE /* Intent */,
+				9A8EA0E72A63DE9500CE7DFE /* SimplesongWidgetBundle.swift */,
+				9A8EA0ED2A63DE9700CE7DFE /* Info.plist */,
+			);
+			path = SimplesongWidget;
+			sourceTree = "<group>";
+		};
+		9A8EA0F52A63DEE600CE7DFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A6623D62AA1D64300D159A1 /* Radio */,
+				9AF5F9D32A72979400B05206 /* Modern */,
+				9AF5F9D42A72979B00B05206 /* Retro */,
+				9A4BA7FF2A8154C500160CC4 /* Visualizer */,
+				9A05D72F2A73B25A00EAC29A /* VM + Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A8EA0F92A63E22600CE7DFE /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9A8EA0F62A63DF5F00CE7DFE /* SimpleProvider.swift */,
+				9AC8B7532A83FDA400055E1A /* GifProvider.swift */,
+				9AF5C8582A6AC9A900CE8AAD /* SimpleProviderVM.swift */,
+				9A94E95B2AA3A54200B720FB /* RadioProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		9A8EA0FA2A63E23100CE7DFE /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				9A8EA0FB2A63E2DA00CE7DFE /* SimpleIntent.swift */,
+				9A97DEE62AA1295200E8A648 /* RadioIntent.swift */,
+				9ABD23B42A8E361E00D818F5 /* GifIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		9A91BB812A6140C6006B4620 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BB822A6140D8006B4620 /* DI.swift */,
+				9A91BB842A61413A006B4620 /* Router.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9A91BB862A614253006B4620 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BB872A614266006B4620 /* HomeView.swift */,
+				9A91BB892A61437C006B4620 /* HomeVM.swift */,
+				9AC540282A6318B200B871EE /* WorkshopView.swift */,
+				9A6520742A74394200C8B63D /* TransparentBgView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		9A91BB8B2A6149E2006B4620 /* HowToTab */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BB8D2A614A06006B4620 /* HowToView.swift */,
+				9A91BB8F2A614A16006B4620 /* HowToVM.swift */,
+			);
+			path = HowToTab;
+			sourceTree = "<group>";
+		};
+		9A91BB8C2A6149F0006B4620 /* SettingsTab */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BB912A614A21006B4620 /* SettingsView.swift */,
+				9A91BB932A614A2D006B4620 /* SettingsVM.swift */,
+				9A516E412A7D4C7400016705 /* AboutView.swift */,
+				9A516E442A7D4D4500016705 /* FAQView.swift */,
+				9A58DDBA2A7F970F00ADB670 /* RequestView.swift */,
+				9AF8C3092A7FC028009E7444 /* IapView.swift */,
+			);
+			path = SettingsTab;
+			sourceTree = "<group>";
+		};
+		9A91BB952A614DE3006B4620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A91BB962A614E83006B4620 /* WidgetCategory.swift */,
+				9AD7BEFF2AA252DA001045C1 /* RadioCountries.swift */,
+				9AA4AA312AA283D900F038D4 /* RadioStations.swift */,
+				9A58DDBD2A7F98B800ADB670 /* MusicAccessDesc.swift */,
+				9AC8B7502A83FC0100055E1A /* WidgetGif.swift */,
+				9AC5402E2A63254400B871EE /* HomeViewType.swift */,
+				9A1601102AA7BCF800E3FD90 /* RadioAction.swift */,
+				9A5214012A619D1200C53CFC /* WidgetKind.swift */,
+				9A516E472A7D4EA500016705 /* SettingsNavPath.swift */,
+				9AF5C83E2A6AABBF00CE8AAD /* DefaultKey.swift */,
+				9AF5C8412A6AAE0F00CE8AAD /* PlayerAction.swift */,
+				9A111C662A7D207200EB1BA4 /* HowToSelection.swift */,
+				9AF5C85B2A6ACB5C00CE8AAD /* SongInfo.swift */,
+				9A94E95E2AA3B5D100B720FB /* RadioInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A91BB982A615247006B4620 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A5214042A61A2CB00C53CFC /* View.swift */,
+				9AC633D52A6C570D00D315CC /* CGColor.swift */,
+				9AC5402C2A631AB600B871EE /* Image.swift */,
+				9AF5C83B2A6AAB1C00CE8AAD /* UserDefaults.swift */,
+				9A1C18EF2A73D66E00548716 /* FileManager.swift */,
+				9A1C18F22A73D73800548716 /* URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9ACA4E322A64675C00E846F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9ACA4E332A64677300E846F7 /* MusicService.swift */,
+				9A8126BC2A7FD2FE00FC73D6 /* StorekitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9AEC9F6F2A60544100D985D9 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC9F702A60545700D985D9 /* MainView.swift */,
+				9AEC9F722A60546500D985D9 /* MainVM.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		9AF5F9D32A72979400B05206 /* Modern */ = {
+			isa = PBXGroup;
+			children = (
+				9A8EA0E92A63DE9600CE7DFE /* SimplesongWidget.swift */,
+				9AC70A402A72AD6D00346EFA /* TheControlWidget.swift */,
+				9AF5F9D52A72987900B05206 /* TheButtonWidget.swift */,
+				9A22BF4B2A72FB020087E398 /* JustArtworkWidget.swift */,
+			);
+			path = Modern;
+			sourceTree = "<group>";
+		};
+		9AF5F9D42A72979B00B05206 /* Retro */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5F9D02A72621F00B05206 /* BoomboxWidget.swift */,
+				9A1B89242A70318100774C7F /* RectangleWidget.swift */,
+				9A1B89272A70379D00774C7F /* WidgampWidget.swift */,
+				9A75CC362A6EF95400BA20E5 /* ShuffleWidget.swift */,
+			);
+			path = Retro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A32ACB62A60387900732B23 /* Simplesong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A32ACC52A60387900732B23 /* Build configuration list for PBXNativeTarget "Simplesong" */;
+			buildPhases = (
+				9A32ACC82A60388B00732B23 /* SwiftGen */,
+				9A32ACB32A60387900732B23 /* Sources */,
+				9A32ACB42A60387900732B23 /* Frameworks */,
+				9A32ACB52A60387900732B23 /* Resources */,
+				9A8EA0F12A63DE9700CE7DFE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8EA0EF2A63DE9700CE7DFE /* PBXTargetDependency */,
+			);
+			name = Simplesong;
+			packageProductDependencies = (
+				9AF5F9D92A72A4DE00B05206 /* Translucent */,
+			);
+			productName = Simplesong;
+			productReference = 9A32ACB72A60387900732B23 /* Simplesong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8EA0DF2A63DE9500CE7DFE /* SimplesongWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8EA0F42A63DE9700CE7DFE /* Build configuration list for PBXNativeTarget "SimplesongWidgetExtension" */;
+			buildPhases = (
+				9A8EA0DC2A63DE9500CE7DFE /* Sources */,
+				9A8EA0DD2A63DE9500CE7DFE /* Frameworks */,
+				9A8EA0DE2A63DE9500CE7DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplesongWidgetExtension;
+			packageProductDependencies = (
+				9AC70A3E2A72A80200346EFA /* Translucent */,
+			);
+			productName = SimplesongWidgetExtension;
+			productReference = 9A8EA0E02A63DE9500CE7DFE /* SimplesongWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A32ACAF2A60387900732B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9A32ACB62A60387900732B23 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9A8EA0DF2A63DE9500CE7DFE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A32ACB22A60387900732B23 /* Build configuration list for PBXProject "Simplesong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A32ACAE2A60387900732B23;
+			packageReferences = (
+				9AF5F9D82A72A4DE00B05206 /* XCRemoteSwiftPackageReference "Translucent" */,
+			);
+			productRefGroup = 9A32ACB82A60387900732B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A32ACB62A60387900732B23 /* Simplesong */,
+				9A8EA0DF2A63DE9500CE7DFE /* SimplesongWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A32ACB52A60387900732B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A32ACBF2A60387900732B23 /* Assets.xcassets in Resources */,
+				9A6BC9182A60463900C1E1F7 /* Localizable.strings in Resources */,
+				9A32ACCA2A6038B900732B23 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8EA0DE2A63DE9500CE7DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC633D82A6C5D0800D315CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A32ACC82A60388B00732B23 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/homebrew/bin/swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A32ACB32A60387900732B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A58DDBB2A7F970F00ADB670 /* RequestView.swift in Sources */,
+				9AF5F9D62A72987900B05206 /* TheButtonWidget.swift in Sources */,
+				9AF5F9D12A72621F00B05206 /* BoomboxWidget.swift in Sources */,
+				9A91BB922A614A21006B4620 /* SettingsView.swift in Sources */,
+				9AEC9F732A60546500D985D9 /* MainVM.swift in Sources */,
+				9A91BB972A614E83006B4620 /* WidgetCategory.swift in Sources */,
+				9AC633DD2A6C645E00D315CC /* NextButtonLabel.swift in Sources */,
+				9AC633DA2A6C637C00D315CC /* PrevButtonLabel.swift in Sources */,
+				9A58DDC12A7FA28300ADB670 /* WidgetAccessOverlay.swift in Sources */,
+				9AC8B7542A83FDA400055E1A /* GifProvider.swift in Sources */,
+				9AF5C8592A6AC9A900CE8AAD /* SimpleProviderVM.swift in Sources */,
+				9A1C18F02A73D66E00548716 /* FileManager.swift in Sources */,
+				9A91BB852A61413A006B4620 /* Router.swift in Sources */,
+				9A91BB8A2A61437C006B4620 /* HomeVM.swift in Sources */,
+				9AC70A412A72AD6D00346EFA /* TheControlWidget.swift in Sources */,
+				9A75CC3A2A6EFAC500BA20E5 /* SimpleIntent.swift in Sources */,
+				9A75CC372A6EF95400BA20E5 /* ShuffleWidget.swift in Sources */,
+				9A58DDBE2A7F98B800ADB670 /* MusicAccessDesc.swift in Sources */,
+				9AB7CE3B2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift in Sources */,
+				9A5845B82A9131B70071C7A4 /* PremiumWidgetOverlay.swift in Sources */,
+				9AF5C8422A6AAE0F00CE8AAD /* PlayerAction.swift in Sources */,
+				9AF5C83C2A6AAB1C00CE8AAD /* UserDefaults.swift in Sources */,
+				9A05D7312A73B28500EAC29A /* WidgetWorkshop.swift in Sources */,
+				9A1B89282A70379D00774C7F /* WidgampWidget.swift in Sources */,
+				9AC8B7512A83FC0100055E1A /* WidgetGif.swift in Sources */,
+				9A111C672A7D207300EB1BA4 /* HowToSelection.swift in Sources */,
+				9AC540312A6327E700B871EE /* OptionallyHidden.swift in Sources */,
+				9ACA4E342A64677300E846F7 /* MusicService.swift in Sources */,
+				9A4514CF2AA4F328005EB502 /* RadioIntent.swift in Sources */,
+				9A1C18F52A73E1D000548716 /* SimplesongWidget.swift in Sources */,
+				9A1C18F32A73D73800548716 /* URL.swift in Sources */,
+				9A91BB832A6140D8006B4620 /* DI.swift in Sources */,
+				9A1601112AA7BCF800E3FD90 /* RadioAction.swift in Sources */,
+				9AC5402F2A63254400B871EE /* HomeViewType.swift in Sources */,
+				9AC5402D2A631AB600B871EE /* Image.swift in Sources */,
+				9AA4AA322AA283D900F038D4 /* RadioStations.swift in Sources */,
+				9AEC9F712A60545700D985D9 /* MainView.swift in Sources */,
+				9ABD23B52A8E361E00D818F5 /* GifIntent.swift in Sources */,
+				9A91BB902A614A16006B4620 /* HowToVM.swift in Sources */,
+				9AF8C30A2A7FC028009E7444 /* IapView.swift in Sources */,
+				9A91BB882A614266006B4620 /* HomeView.swift in Sources */,
+				9AF41A4E2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift in Sources */,
+				9AEC9F6E2A604C1900D985D9 /* AppConstant.swift in Sources */,
+				9AF5C85C2A6ACB5C00CE8AAD /* SongInfo.swift in Sources */,
+				9A6520752A74394200C8B63D /* TransparentBgView.swift in Sources */,
+				9A32ACBB2A60387900732B23 /* SimplesongApp.swift in Sources */,
+				9A516E452A7D4D4500016705 /* FAQView.swift in Sources */,
+				9AE991D02AA7623B00F2499E /* RadioMdModernWidget.swift in Sources */,
+				9AC633D62A6C570D00D315CC /* CGColor.swift in Sources */,
+				9AC633E02A6C657A00D315CC /* WidgetSharedVM.swift in Sources */,
+				9A111C6A2A7D2A2B00EB1BA4 /* LabelCenterStyle.swift in Sources */,
+				9A22BF4C2A72FB020087E398 /* JustArtworkWidget.swift in Sources */,
+				9A5214052A61A2CB00C53CFC /* View.swift in Sources */,
+				9A5214022A619D1200C53CFC /* WidgetKind.swift in Sources */,
+				9A0EE6702A8D1D4600AABC44 /* VisualizerMdWidget.swift in Sources */,
+				9A91BB8E2A614A06006B4620 /* HowToView.swift in Sources */,
+				9A94E95F2AA3B5D100B720FB /* RadioInfo.swift in Sources */,
+				9A6BC91C2A60466B00C1E1F7 /* Strings.swift in Sources */,
+				9A597ADE2AA659FE0038C727 /* RadioProvider.swift in Sources */,
+				9AFC5DC62A8A3F4F0029D013 /* VisualizerSmWidget.swift in Sources */,
+				9AC540292A6318B200B871EE /* WorkshopView.swift in Sources */,
+				9AF5C83F2A6AABBF00CE8AAD /* DefaultKey.swift in Sources */,
+				9A516E422A7D4C7400016705 /* AboutView.swift in Sources */,
+				9A75CC392A6EFA2200BA20E5 /* SimpleProvider.swift in Sources */,
+				9A32ACCF2A60391C00732B23 /* Assets.swift in Sources */,
+				9AD7BF002AA252DA001045C1 /* RadioCountries.swift in Sources */,
+				9A91BB942A614A2D006B4620 /* SettingsVM.swift in Sources */,
+				9A1B89252A70318100774C7F /* RectangleWidget.swift in Sources */,
+				9A8126BD2A7FD2FE00FC73D6 /* StorekitService.swift in Sources */,
+				9A516E482A7D4EA500016705 /* SettingsNavPath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8EA0DC2A63DE9500CE7DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A58DDBC2A7F970F00ADB670 /* RequestView.swift in Sources */,
+				9AF5C84D2A6ABFDA00CE8AAD /* SettingsView.swift in Sources */,
+				9A6520762A74394200C8B63D /* TransparentBgView.swift in Sources */,
+				9AF5C84C2A6ABFD600CE8AAD /* HowToVM.swift in Sources */,
+				9AF5C85D2A6ACB5C00CE8AAD /* SongInfo.swift in Sources */,
+				9A75CC382A6EF95400BA20E5 /* ShuffleWidget.swift in Sources */,
+				9AF5C84F2A6ABFEA00CE8AAD /* WidgetCategory.swift in Sources */,
+				9A8EA0EA2A63DE9600CE7DFE /* SimplesongWidget.swift in Sources */,
+				9A58DDC22A7FA28300ADB670 /* WidgetAccessOverlay.swift in Sources */,
+				9AC8B7552A83FDA400055E1A /* GifProvider.swift in Sources */,
+				9AF5C8472A6ABFBA00CE8AAD /* MainVM.swift in Sources */,
+				9AC633DB2A6C637C00D315CC /* PrevButtonLabel.swift in Sources */,
+				9A1B89292A70379D00774C7F /* WidgampWidget.swift in Sources */,
+				9AF5F9D72A72987900B05206 /* TheButtonWidget.swift in Sources */,
+				9AC633DE2A6C645E00D315CC /* NextButtonLabel.swift in Sources */,
+				9AF5C85A2A6AC9A900CE8AAD /* SimpleProviderVM.swift in Sources */,
+				9AF5C8462A6ABFB700CE8AAD /* MainView.swift in Sources */,
+				9A58DDBF2A7F98B800ADB670 /* MusicAccessDesc.swift in Sources */,
+				9A5845B92A9131B70071C7A4 /* PremiumWidgetOverlay.swift in Sources */,
+				9AB7CE3C2AA5DA7C0060A7A8 /* RadioMdRetroWidget.swift in Sources */,
+				9A8EA0F82A63E0B100CE7DFE /* WidgetKind.swift in Sources */,
+				9A1C18F12A73D66E00548716 /* FileManager.swift in Sources */,
+				9AF5C8432A6AAE0F00CE8AAD /* PlayerAction.swift in Sources */,
+				9AF5C8522A6ABFFF00CE8AAD /* Assets.swift in Sources */,
+				9AC8B7522A83FC0100055E1A /* WidgetGif.swift in Sources */,
+				9A111C682A7D207300EB1BA4 /* HowToSelection.swift in Sources */,
+				9AF5C8502A6ABFF100CE8AAD /* View.swift in Sources */,
+				9AF5C8512A6ABFF700CE8AAD /* OptionallyHidden.swift in Sources */,
+				9AF5C8492A6ABFC200CE8AAD /* HomeVM.swift in Sources */,
+				9A4514C82AA4E288005EB502 /* RadioIntent.swift in Sources */,
+				9A8EA0E82A63DE9600CE7DFE /* SimplesongWidgetBundle.swift in Sources */,
+				9A05D7322A73B28500EAC29A /* WidgetWorkshop.swift in Sources */,
+				9A1601122AA7BCF800E3FD90 /* RadioAction.swift in Sources */,
+				9AF5F9D22A72621F00B05206 /* BoomboxWidget.swift in Sources */,
+				9A8EA0F72A63DF5F00CE7DFE /* SimpleProvider.swift in Sources */,
+				9AA4AA332AA283D900F038D4 /* RadioStations.swift in Sources */,
+				9A8EA0FD2A63E35800CE7DFE /* Strings.swift in Sources */,
+				9ABD23B62A8E361E00D818F5 /* GifIntent.swift in Sources */,
+				9AC633D72A6C570D00D315CC /* CGColor.swift in Sources */,
+				9AF8C30B2A7FC028009E7444 /* IapView.swift in Sources */,
+				9AF5C83D2A6AAB1C00CE8AAD /* UserDefaults.swift in Sources */,
+				9AF41A4F2AACB2F8007C3CA3 /* RadioWidgetOverlay.swift in Sources */,
+				9A1B89262A70318100774C7F /* RectangleWidget.swift in Sources */,
+				9A22BF4D2A72FB020087E398 /* JustArtworkWidget.swift in Sources */,
+				9AF5C84B2A6ABFD300CE8AAD /* HowToView.swift in Sources */,
+				9A516E462A7D4D4500016705 /* FAQView.swift in Sources */,
+				9AB3AE892A69CBD000426F95 /* MusicService.swift in Sources */,
+				9A1C18F42A73D73800548716 /* URL.swift in Sources */,
+				9A111C6B2A7D2A2C00EB1BA4 /* LabelCenterStyle.swift in Sources */,
+				9AC633E12A6C657A00D315CC /* WidgetSharedVM.swift in Sources */,
+				9AF5C8532A6AC00600CE8AAD /* HomeViewType.swift in Sources */,
+				9AF5C84A2A6ABFC400CE8AAD /* WorkshopView.swift in Sources */,
+				9A0EE6712A8D1D4600AABC44 /* VisualizerMdWidget.swift in Sources */,
+				9AF5C8442A6ABF6200CE8AAD /* DI.swift in Sources */,
+				9A6623D52AA1D59A00D159A1 /* RadioMdModernWidget.swift in Sources */,
+				9AC70A422A72AD6D00346EFA /* TheControlWidget.swift in Sources */,
+				9A94E9602AA3B5D100B720FB /* RadioInfo.swift in Sources */,
+				9AFC5DC72A8A3F4F0029D013 /* VisualizerSmWidget.swift in Sources */,
+				9A94E95D2AA3A54200B720FB /* RadioProvider.swift in Sources */,
+				9AF5C8542A6AC00D00CE8AAD /* Image.swift in Sources */,
+				9A8EA0FC2A63E2DA00CE7DFE /* SimpleIntent.swift in Sources */,
+				9A516E432A7D4C7400016705 /* AboutView.swift in Sources */,
+				9AF5C84E2A6ABFDD00CE8AAD /* SettingsVM.swift in Sources */,
+				9AF5C83A2A6AAAF700CE8AAD /* AppConstant.swift in Sources */,
+				9AD7BF012AA252DA001045C1 /* RadioCountries.swift in Sources */,
+				9AF5C8482A6ABFBF00CE8AAD /* HomeView.swift in Sources */,
+				9AF5C8402A6AABBF00CE8AAD /* DefaultKey.swift in Sources */,
+				9AF5C8452A6ABF9600CE8AAD /* Router.swift in Sources */,
+				9A8126BE2A7FD2FE00FC73D6 /* StorekitService.swift in Sources */,
+				9A516E492A7D4EA500016705 /* SettingsNavPath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8EA0EF2A63DE9700CE7DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8EA0DF2A63DE9500CE7DFE /* SimplesongWidgetExtension */;
+			targetProxy = 9A8EA0EE2A63DE9700CE7DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6BC91A2A60463900C1E1F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6BC9192A60463900C1E1F7 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A32ACC32A60387900732B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A32ACC42A60387900732B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A32ACC62A60387900732B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Simplesong/Simplesong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Simplesong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Simplesong;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Simplesong needs to access Apple Music Library in order for Music player Widgets to be able to start a playback of your songs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassak1.Simplesong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A32ACC72A60387900732B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Simplesong/Simplesong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Simplesong/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Simplesong;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Simplesong needs to access Apple Music Library in order for Music player Widgets to be able to start a playback of your songs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassak1.Simplesong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9A8EA0F22A63DE9700CE7DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SimplesongWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimplesongWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SimplesongWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassak1.Simplesong.SimplesongWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A8EA0F32A63DE9700CE7DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SimplesongWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimplesongWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SimplesongWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jassak1.Simplesong.SimplesongWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A32ACB22A60387900732B23 /* Build configuration list for PBXProject "Simplesong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A32ACC32A60387900732B23 /* Debug */,
+				9A32ACC42A60387900732B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A32ACC52A60387900732B23 /* Build configuration list for PBXNativeTarget "Simplesong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A32ACC62A60387900732B23 /* Debug */,
+				9A32ACC72A60387900732B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8EA0F42A63DE9700CE7DFE /* Build configuration list for PBXNativeTarget "SimplesongWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8EA0F22A63DE9700CE7DFE /* Debug */,
+				9A8EA0F32A63DE9700CE7DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AF5F9D82A72A4DE00B05206 /* XCRemoteSwiftPackageReference "Translucent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasimok/Translucent";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AC70A3E2A72A80200346EFA /* Translucent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF5F9D82A72A4DE00B05206 /* XCRemoteSwiftPackageReference "Translucent" */;
+			productName = Translucent;
+		};
+		9AF5F9D92A72A4DE00B05206 /* Translucent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF5F9D82A72A4DE00B05206 /* XCRemoteSwiftPackageReference "Translucent" */;
+			productName = Translucent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A32ACAF2A60387900732B23 /* Project object */;
+}

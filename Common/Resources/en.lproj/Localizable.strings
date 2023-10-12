@@ -1,0 +1,158 @@
+/* 
+  Localizable.strings
+  Simplesong
+
+  Created by Adam Jassak on 13/07/2023.
+  
+*/
+
+// Common
+"home" = "Home";
+"howTo" = "How To";
+"settings" = "Settings";
+"unlockPremium" = "Unlock Premium";
+"giveReview" = "Leave Rating";
+
+// Home tab
+"btnModern" = "Modern";
+"btnRetro" = "Retro";
+"widgetCategory" = "Widgets";
+"btnEditWidget" = "Edit Widget";
+"editWidgetSection" = "Edit Widget";
+"tailoredDesign" = "Tailored Design";
+"bgColor" = "Background color";
+"fgColor" = "Foreground color";
+"size" = "Button size";
+"transparentBg" = "Transparent background";
+"widgetPositionSelect" = "TAP TO SELECT WIDGET POSITION";
+"transparentWorkshopTitle" = "Transparent Image Workshop";
+"pickBgImage" = "Select background Image";
+"dtColor" = "Detail color";
+"setupBg" = "Setup transparent background";
+"visualization" = "Visualization";
+"primaryStation" = "Primary Station";
+"secondaryStation" = "Secondary Station";
+"thirdStation" = "Third Station";
+"country" = "Country";
+"station" = "Station";
+"appearance" = "Appearance";
+"reloadCountries" = "Reload countries";
+
+// How To tab
+"howToTitle" = "How To";
+"howToAddHome" = "Add Home Screen Widgets";
+"howToEditAppearance" = "Edit Widget Appearance";
+"howToAddTransparency" = "Add Widget transparent Background";
+"HowToSetupRadio" = "Setup Radio stations";
+"howToApp1" = "Long press the Home Screen to Active Jiggle-mode";
+"howToApp2" = "Press the + in top left corner";
+"howToApp3" = "Select Simplesong from Widget center";
+"howToApp4" = "Pick one of the Widgets";
+"howToEdi1" = "Select preferred Widget on Home tab";
+"howToEdi2" = "Press the Edit Widget button";
+"howToEdi3" = "Switch on the Tailored Design preference";
+"howToEdi4" = "Update the Widget appearance";
+"howToTran1" = "Select preferred Widget on Home tab";
+"howToTran2" = "Proceed to Widget Workshop";
+"howToTran3" = "Switch on the Tailored Design preference";
+"howToTran4" = "Switch on the Transparent background preference";
+"howToTran5" = "Minimise the app";
+"howToTran6" = "Long press the Home Screen to Activate Jiggle-mode";
+"howToTran7" = "Swipe right until empty home screen is shown";
+"howToTran8" = "Take a screenshot";
+"howToTran9" = "Proceed back to the app";
+"howToTran10" = "Press the Select background Image button";
+"howToTran11" = "Select the recently taken screenshot";
+"howToTran12" = "Tap on the gray box to choose the Widget position";
+"howToRadio1" = "Make sure Your device is connected to the internet";
+"howToRadio2" = "Select any Radio Widget on Home tab";
+"howToRadio3" = "Proceed to Widget Workshop";
+"howToRadio4" = "Select Country for Primary Station";
+"howToRadio5" = "Select Station for Primary Station";
+"howToRadio6" = "Optionally select Country for Secondary and Third Station";
+"howToRadio7" = "Optionally select Station for Secondary and Third Station";
+
+// Settings tab
+"settingsTitle" = "Settings";
+"twitter" = "X";
+"mail" = "Mail";
+"appstore" = "AppStore";
+"about" = "About";
+"faq" = "FAQ";
+"version" = "Version";
+"simplesong" = "Simplesong";
+"requestInfo" = "In order for Simplesong player Widgets to work properly, the Apple Music Library access is required. You can grant the access to the Library by pressing the button bellow. If the access has been denied, it can be allowed via System Settings -> Simplesong.";
+"requestStatus" = "Status: ";
+"requestBtn" = "Request Apple Music Access";
+"requestTitle" = "Music Access";
+"requestListLink" = "Request Music Access";
+"noConnection" = "No network connection";
+"simplePremium" = "Simplesong Premium";
+"unlockAll" = "Unlocks all Widgets for a lifetime";
+"unlockOne" = "Unlocks all of the Simplesong Widgets";
+"unlockTwo" = "Regular updates and improvements";
+"unlockThree" = "Lifetime access to Premium";
+"privacyPolicy" = "Privacy policy";
+"and" = "and";
+"termsUse" = "Terms of use";
+"buyNow" = "Buy Now";
+"restorePurchase" = "Restore purchase";
+"premiumStatus" = "Premium status: ";
+"locked" = "LOCKED";
+"unlocked" = "UNLOCKED";
+"purchaseRestored" = "Purchase restored";
+"ok" = "OK";
+"aboutApp" = "Simplesong is an iOS application providing various Music players via Home Screen Widgets. User can choose from multiple modern, or retro designed players. Each player can be further modified to user's preference via the Application, to create the best looking home screen Music player. Apart of providing Music Player Widgets, simplesong also contain two Visualizer Widgets with various animations. These Widgets can be tailored to user's choice via the Application too - apart of the custom design, the preferred animation can be selected.";
+
+// Widgets
+"song" = "SONG";
+"author" = "AUTHOR";
+"shuffle" = "SHUFFLE";
+"accessOverlay" = "MUSIC ACCESS NOT ALLOWED";
+"premiumOverlay" = "PREMIUM\nWIDGET";
+"radioOverlay" = "Setup Radio Station in application";
+
+// Widgets Configuration
+"rectangleDesc" = "This is an excelent rectangle";
+"simpleSongDesc" = "Simple music widget";
+"theControlDesc" = "Clean medium widget";
+"theButtonDesc" = "Clean small widget";
+"justArtworkDesc" = "Minimalistic music widget";
+"boomboxDesc" = "Retro-styled music widget";
+"widgampDesc" = "Favorite retro player";
+"shuffleDesc" = "iShuffle small music player";
+"visualizerSmDesc" = "Visualizer small Widget";
+"visualizerMdDesc" = "Visualizer medium Widget";
+"radioModernDesc" = "Clean medium Radio widget";
+
+// FAQ
+"q1" = "Player is showing incorrect information, why?";
+"a1" = "Widgets on iOS are refreshed by best-effort policy, and as such, sometimes they might display stale information.";
+"q2" = "How can I refresh Player to show latest informations?";
+"a2" = "Simply tap the play/pause button, which will invoke the Widget refresh.";
+"q3" = "Can I use Widgets with 3rd party Streaming app?";
+"a3" = "For current time being, only Apple Music is supported.";
+"q4" = "Widgets are showing MUSIC ACCESS NOT ALLOWED, what does it mean?";
+"a4" = "Simplesong requires access to Apple Music to show song info in Widgets. Access can be granted via the Settings tab.";
+"q5" = "Player is showing incorrect timing, why?";
+"a5" = "If the song is skipped automatically, Widget can take brief moment before refreshing and showing correct song time.";
+"q6" = "Pressing the play button doesn't do anything, why?";
+"a6" = "Simplesong might come accross empty library sometimes. Simply start the song from main Music app and tap the Play button on a Widget afterwards.";
+"q7" = "Widgets are not available in Widget Center, how can I add them?";
+"a7" = "It might take up to 2 hours for Widgets to appear in Widget Center after fresh installation.";
+"q8" = "Visualizer Widget is stuck at same picture. How can I reload it?";
+"a8" = "Simply tap the Image of the Widget and it will start animating again.";
+"q9" = "Some Widgets are showing PREMIUM WIDGET overlay, how can I remove it?";
+"a9" = "Premium Widgets can be unlocked by purchasing Simplesong Premium. Simply tap the cart icon on Home tab for more info.";
+"q10" = "Player seems to be stuck and not responding to any buttons, how can I fix this?";
+"a10" = "When the Widget player is stuck, remove it from Home Screen and add again.";
+"q11" = "Radio Widget is showing Setup Radio station overlay, how can I remove it?";
+"a11" = "Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.";
+"q12" = "After pressing the Play button on Radio Widget, no station starts playing, why?";
+"a12" = "Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.";
+"q13" = "There are no Countries, nor Radio Stations available when editing Radio Widgets, why?";
+"a13" = "Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.";
+"q14" = "There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?";
+"a14" = "Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.";
+"q15" = "Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?";
+"a15" = "To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.";
