@@ -12,7 +12,7 @@ struct FAQView: View {
         ZStack {
             VStack {
                 List {
-                    ForEach(1..<16) { item in
+                    ForEach(1..<15) { item in
                         VStack(alignment: .leading) {
                             Text("\(item). \(NSLocalizedString("q\(item)", comment: ""))")
                             Text("\(NSLocalizedString("a\(item)", comment: ""))")

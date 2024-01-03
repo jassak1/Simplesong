@@ -34,10 +34,6 @@ struct TheControlView: View {
                              !vm.showAccessOverlay) {
                 WidgetAccessOverlay()
             }
-            OptionallyHidden(isHidden: entry.previewOnly ||
-                             entry.premiumUnlocked) {
-                PremiumWidgetOverlay()
-            }
         }.foregroundStyle(vm.theControlWorkshop.personalAppearance ? vm.theControlWorkshop.fgColor : .white)
             .containerBackground(for: .widget) {
                 getBg()

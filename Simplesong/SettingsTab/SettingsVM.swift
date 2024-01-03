@@ -52,50 +52,10 @@ import StoreKit
     var privacyUrl = URL(string: AppConstant.privacyUrl)!
     var showAlert = false
 
-    // MARK: - Properties & Methods related to Storekit
-    var storekitService: StorekitServiceProto = StorekitService()
-    var skListenerTask: Task<Void, Error>? = nil
-    var skProduct: Product? = nil
-    var skPrice: String = String()
-    var skUnlocked: Bool = UserDefaults.getValue(for: .premiumUnlocked, defaultValue: false)
-
-    /// Method responsible for trigerring pruchase action
-    func purchasePremium() {
-        Task {
-            do {
-                try await storekitService.purchaseItem(item: skProduct)
-                skUnlocked = UserDefaults.getValue(for: .premiumUnlocked, defaultValue: false)
-            } catch {
-                /// Error occured during the purchase
-            }
-        }
-    }
-
-    /// Method responsible for trigerring restore purchase action
-    func restorePremium() {
-        Task {
-            await storekitService.restorePurchase()
-            skUnlocked = UserDefaults.getValue(for: .premiumUnlocked, defaultValue: false)
-        }
-        showAlert = true
-    }
-
     // MARK: - Initialiser
     init(router: Router,
-         musicService: MusicServiceProto,
-         storekitService: StorekitServiceProto) {
+         musicService: MusicServiceProto) {
         self.router = router
         self.musicService = musicService
-        self.storekitService = storekitService
-        skListenerTask = storekitService.transactionListener()
-
-        Task { @MainActor in
-            do {
-                skProduct = try await storekitService.fetchProduct()
-                skPrice = skProduct?.displayPrice ?? String()
-            } catch {
-                skPrice = L10n.noConnection
-            }
-        }
     }
 }

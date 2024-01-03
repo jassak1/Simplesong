@@ -11,11 +11,11 @@ import WidgetKit
 /// GifProvider used as Widget Provider for GIF Widgets
 struct GifProvider: TimelineProvider {
     func placeholder(in context: Context) -> GifEntry {
-        GifEntry(date: Date(), frame: 0, premiumUnlocked: true)
+        GifEntry(date: Date(), frame: 0)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (GifEntry) -> Void) {
-        let entry = GifEntry(date: Date(), frame: 0, premiumUnlocked: true)
+        let entry = GifEntry(date: Date(), frame: 0)
         completion(entry)
     }
 
@@ -34,6 +34,5 @@ struct GifProvider: TimelineProvider {
 struct GifEntry: TimelineEntry {
     let date: Date
     let frame: Int
-    var premiumUnlocked: Bool = UserDefaults.getValue(for: .premiumUnlocked, defaultValue: false)
 }
 

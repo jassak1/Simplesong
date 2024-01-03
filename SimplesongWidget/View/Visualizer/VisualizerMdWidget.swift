@@ -18,9 +18,6 @@ struct VisualizerMdView: View {
                     .resizable()
                     .scaledToFit()
             }).buttonStyle(.plain)
-            OptionallyHidden(isHidden: entry.premiumUnlocked) {
-                PremiumWidgetOverlay()
-            }
         }
         .foregroundStyle(.white)
         .containerBackground(for: .widget) {

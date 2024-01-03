@@ -33,21 +33,8 @@ struct HomeView: View {
                 }
             }
             .navigationTitle(L10n.home)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button(action: {
-                        viewModel.showModal = true
-                    },
-                           label: {
-                        Image(systemName: AppConstant.cartIcon)
-                    })
-                }
-            }
             .fullScreenCover(isPresented: $viewModel.showSheet) {
                 viewModel.router.showWorkshopView()
-            }
-            .sheet(isPresented: $viewModel.showModal) {
-                viewModel.router.showIapView()
             }
             .dynamicTypeSize(.medium)
         }

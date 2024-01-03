@@ -9,8 +9,6 @@ import Foundation
 
 /// Enum providing UserDefault keys {
 enum DefaultKey: String {
-    case premiumUnlocked
-
     case currentSongIndex
     case downloadedOnly
     case bgImage

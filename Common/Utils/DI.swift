@@ -15,7 +15,6 @@ struct DI {
     // MARK: - Private properties
     private var router: Router
     private var musicService: MusicServiceProto
-    private var storekitService: StorekitServiceProto
 
     // MARK: - Public properties
     let mainVm: MainVM
@@ -31,13 +30,11 @@ struct DI {
     init() {
         router = Router()
         musicService = MusicService()
-        storekitService = StorekitService()
         homeVm = HomeVM(router: router, musicService: musicService)
         mainVm = MainVM(router: router)
         howToVm = HowToVM(router: router)
         settingsVm = SettingsVM(router: router,
-                                musicService: musicService,
-                                storekitService: storekitService)
+                                musicService: musicService)
         simpleIntentVm = SimpleIntentVM(musicService: musicService)
         simpleProviderVm = SimpleProviderVM(musicService: musicService)
         widgetSharedVm = WidgetSharedVM(musicService: musicService)

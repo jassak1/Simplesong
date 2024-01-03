@@ -12,7 +12,6 @@ struct AppConstant {
     static let homeIcon = "music.note.house"
     static let howToIcon = "questionmark.app.fill"
     static let settingsIcon = "gear"
-    static let cartIcon = "cart.circle"
     static let pencilIcon = "pencil.and.scribble"
     static let closeIcon = "xmark.circle"
     static let appGroupContainer = "group.com.jassak1.simplesong"

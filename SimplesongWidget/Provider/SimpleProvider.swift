@@ -14,11 +14,11 @@ struct SimpleProvider: TimelineProvider {
     let viewModel: SimpleProviderVM
 
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), songInfo: SongInfo(), premiumUnlocked: true, previewOnly: true)
+        SimpleEntry(date: Date(), songInfo: SongInfo(), previewOnly: true)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), songInfo: SongInfo(), premiumUnlocked: true, previewOnly: true)
+        let entry = SimpleEntry(date: Date(), songInfo: SongInfo(), previewOnly: true)
         completion(entry)
     }
 
@@ -44,6 +44,5 @@ struct SimpleProvider: TimelineProvider {
 struct SimpleEntry: TimelineEntry {
     let date: Date
     let songInfo: SongInfo
-    var premiumUnlocked: Bool = UserDefaults.getValue(for: .premiumUnlocked, defaultValue: false)
     let previewOnly: Bool
 }

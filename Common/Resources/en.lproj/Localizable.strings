@@ -10,7 +10,6 @@
 "home" = "Home";
 "howTo" = "How To";
 "settings" = "Settings";
-"unlockPremium" = "Unlock Premium";
 "giveReview" = "Leave Rating";
 
 // Home tab
@@ -87,20 +86,6 @@
 "requestTitle" = "Music Access";
 "requestListLink" = "Request Music Access";
 "noConnection" = "No network connection";
-"simplePremium" = "Simplesong Premium";
-"unlockAll" = "Unlocks all Widgets for a lifetime";
-"unlockOne" = "Unlocks all of the Simplesong Widgets";
-"unlockTwo" = "Regular updates and improvements";
-"unlockThree" = "Lifetime access to Premium";
-"privacyPolicy" = "Privacy policy";
-"and" = "and";
-"termsUse" = "Terms of use";
-"buyNow" = "Buy Now";
-"restorePurchase" = "Restore purchase";
-"premiumStatus" = "Premium status: ";
-"locked" = "LOCKED";
-"unlocked" = "UNLOCKED";
-"purchaseRestored" = "Purchase restored";
 "ok" = "OK";
 "aboutApp" = "Simplesong is an iOS application providing various Music players via Home Screen Widgets. User can choose from multiple modern, or retro designed players. Each player can be further modified to user's preference via the Application, to create the best looking home screen Music player. Apart of providing Music Player Widgets, simplesong also contain two Visualizer Widgets with various animations. These Widgets can be tailored to user's choice via the Application too - apart of the custom design, the preferred animation can be selected.";
 
@@ -109,7 +94,6 @@
 "author" = "AUTHOR";
 "shuffle" = "SHUFFLE";
 "accessOverlay" = "MUSIC ACCESS NOT ALLOWED";
-"premiumOverlay" = "PREMIUM\nWIDGET";
 "radioOverlay" = "Setup Radio Station in application";
 
 // Widgets Configuration
@@ -142,17 +126,15 @@
 "a7" = "It might take up to 2 hours for Widgets to appear in Widget Center after fresh installation.";
 "q8" = "Visualizer Widget is stuck at same picture. How can I reload it?";
 "a8" = "Simply tap the Image of the Widget and it will start animating again.";
-"q9" = "Some Widgets are showing PREMIUM WIDGET overlay, how can I remove it?";
-"a9" = "Premium Widgets can be unlocked by purchasing Simplesong Premium. Simply tap the cart icon on Home tab for more info.";
-"q10" = "Player seems to be stuck and not responding to any buttons, how can I fix this?";
-"a10" = "When the Widget player is stuck, remove it from Home Screen and add again.";
-"q11" = "Radio Widget is showing Setup Radio station overlay, how can I remove it?";
-"a11" = "Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.";
-"q12" = "After pressing the Play button on Radio Widget, no station starts playing, why?";
-"a12" = "Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.";
-"q13" = "There are no Countries, nor Radio Stations available when editing Radio Widgets, why?";
-"a13" = "Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.";
-"q14" = "There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?";
-"a14" = "Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.";
-"q15" = "Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?";
-"a15" = "To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.";
+"q9" = "Player seems to be stuck and not responding to any buttons, how can I fix this?";
+"a9" = "When the Widget player is stuck, remove it from Home Screen and add again.";
+"q10" = "Radio Widget is showing Setup Radio station overlay, how can I remove it?";
+"a10" = "Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.";
+"q11" = "After pressing the Play button on Radio Widget, no station starts playing, why?";
+"a11" = "Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.";
+"q12" = "There are no Countries, nor Radio Stations available when editing Radio Widgets, why?";
+"a12" = "Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.";
+"q13" = "There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?";
+"a13" = "Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.";
+"q14" = "Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?";
+"a14" = "To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.";

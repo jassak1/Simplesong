@@ -74,10 +74,6 @@ struct WidgampView: View {
                              !vm.showAccessOverlay) {
                 WidgetAccessOverlay()
             }
-            OptionallyHidden(isHidden: entry.previewOnly ||
-                             entry.premiumUnlocked) {
-                PremiumWidgetOverlay()
-            }
         }.foregroundStyle(vm.widgamptWorkshop.personalAppearance ?
                           vm.widgamptWorkshop.fgColor : .white)
         .background(getContainerBg())

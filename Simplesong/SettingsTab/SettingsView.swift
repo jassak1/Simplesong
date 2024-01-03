@@ -14,19 +14,6 @@ struct SettingsView: View {
         NavigationStack(path: $vm.navPath) {
             ZStack {
                 List {
-                    Section() {
-                        Button(action: {
-                            vm.navPath.append(SettingsNavPath.iapScreen)
-                        }, label: {
-                            HStack {
-                                monoText(L10n.unlockPremium)
-                                Spacer()
-                                Image(systemName: AppConstant.rightIcon)
-                            }
-                        }).foregroundStyle(Asset.darkRed.swiftUIColor)
-                            .font(.title3)
-                            .fontWeight(.bold)
-                    }.listRowBackground(Color.black)
                     Section(content: {
                         HStack {
                             getLabel(name: L10n.twitter)
@@ -95,8 +82,6 @@ struct SettingsView: View {
                         vm.router.showAboutView()
                     case .faqScreen:
                         vm.router.showFaqView()
-                    case .iapScreen:
-                        vm.router.showIapView()
                     case .requestScreen:
                         vm.router.showRequestView()
                     }

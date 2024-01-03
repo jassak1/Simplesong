@@ -16,7 +16,6 @@ protocol RouterSimplesong {
     func showAboutView() -> AboutView
     func showFaqView() -> FAQView
     func showRequestView() -> RequestView
-    func showIapView() -> IapView
 }
 
 /// Router protocol defining SwiftUI Views of widgets extension
@@ -77,10 +76,6 @@ extension Router: RouterSimplesong {
 
     func showRequestView() -> RequestView {
         RequestView()
-    }
-
-    func showIapView() -> IapView {
-        IapView()
     }
 }
 

@@ -11,18 +11,16 @@ import Foundation
 internal enum L10n {
   /// Widgets on iOS are refreshed by best-effort policy, and as such, sometimes they might display stale information.
   internal static let a1 = L10n.tr("Localizable", "a1", fallback: "Widgets on iOS are refreshed by best-effort policy, and as such, sometimes they might display stale information.")
-  /// When the Widget player is stuck, remove it from Home Screen and add again.
-  internal static let a10 = L10n.tr("Localizable", "a10", fallback: "When the Widget player is stuck, remove it from Home Screen and add again.")
   /// Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.
-  internal static let a11 = L10n.tr("Localizable", "a11", fallback: "Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.")
+  internal static let a10 = L10n.tr("Localizable", "a10", fallback: "Proceed to Simplesong app -> How To section -> Radio to learn about How to setup Radio stations.")
   /// Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.
-  internal static let a12 = L10n.tr("Localizable", "a12", fallback: "Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.")
+  internal static let a11 = L10n.tr("Localizable", "a11", fallback: "Make sure your device is connected to the internet as Radio Widgets require active internet connection. Also, some Widgets might occasionally become unresponsive with first action - simply press the Pause/Play Radio Button twice and the Station will eventually start playing.")
   /// Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.
-  internal static let a13 = L10n.tr("Localizable", "a13", fallback: "Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.")
+  internal static let a12 = L10n.tr("Localizable", "a12", fallback: "Make sure Your device is connected to the internet in order to retrieve latest Radio data from external service.")
   /// Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.
-  internal static let a14 = L10n.tr("Localizable", "a14", fallback: "Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.")
+  internal static let a13 = L10n.tr("Localizable", "a13", fallback: "Tap the Reload countries button in Workshop View associated with Radio Widget to fetch the list of countries from external service.")
   /// To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.
-  internal static let a15 = L10n.tr("Localizable", "a15", fallback: "To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.")
+  internal static let a14 = L10n.tr("Localizable", "a14", fallback: "To force stop playback from Music Player Widgets press the pause button in Music app. To force stop playback from Radio Player Widgets, open the Simplesong app and close it.")
   /// Simply tap the play/pause button, which will invoke the Widget refresh.
   internal static let a2 = L10n.tr("Localizable", "a2", fallback: "Simply tap the play/pause button, which will invoke the Widget refresh.")
   /// For current time being, only Apple Music is supported.
@@ -37,16 +35,14 @@ internal enum L10n {
   internal static let a7 = L10n.tr("Localizable", "a7", fallback: "It might take up to 2 hours for Widgets to appear in Widget Center after fresh installation.")
   /// Simply tap the Image of the Widget and it will start animating again.
   internal static let a8 = L10n.tr("Localizable", "a8", fallback: "Simply tap the Image of the Widget and it will start animating again.")
-  /// Premium Widgets can be unlocked by purchasing Simplesong Premium. Simply tap the cart icon on Home tab for more info.
-  internal static let a9 = L10n.tr("Localizable", "a9", fallback: "Premium Widgets can be unlocked by purchasing Simplesong Premium. Simply tap the cart icon on Home tab for more info.")
+  /// When the Widget player is stuck, remove it from Home Screen and add again.
+  internal static let a9 = L10n.tr("Localizable", "a9", fallback: "When the Widget player is stuck, remove it from Home Screen and add again.")
   /// About
   internal static let about = L10n.tr("Localizable", "about", fallback: "About")
   /// Simplesong is an iOS application providing various Music players via Home Screen Widgets. User can choose from multiple modern, or retro designed players. Each player can be further modified to user's preference via the Application, to create the best looking home screen Music player. Apart of providing Music Player Widgets, simplesong also contain two Visualizer Widgets with various animations. These Widgets can be tailored to user's choice via the Application too - apart of the custom design, the preferred animation can be selected.
   internal static let aboutApp = L10n.tr("Localizable", "aboutApp", fallback: "Simplesong is an iOS application providing various Music players via Home Screen Widgets. User can choose from multiple modern, or retro designed players. Each player can be further modified to user's preference via the Application, to create the best looking home screen Music player. Apart of providing Music Player Widgets, simplesong also contain two Visualizer Widgets with various animations. These Widgets can be tailored to user's choice via the Application too - apart of the custom design, the preferred animation can be selected.")
   /// MUSIC ACCESS NOT ALLOWED
   internal static let accessOverlay = L10n.tr("Localizable", "accessOverlay", fallback: "MUSIC ACCESS NOT ALLOWED")
-  /// and
-  internal static let and = L10n.tr("Localizable", "and", fallback: "and")
   /// Appearance
   internal static let appearance = L10n.tr("Localizable", "appearance", fallback: "Appearance")
   /// AppStore
@@ -63,8 +59,6 @@ internal enum L10n {
   internal static let btnModern = L10n.tr("Localizable", "btnModern", fallback: "Modern")
   /// Retro
   internal static let btnRetro = L10n.tr("Localizable", "btnRetro", fallback: "Retro")
-  /// Buy Now
-  internal static let buyNow = L10n.tr("Localizable", "buyNow", fallback: "Buy Now")
   /// Country
   internal static let country = L10n.tr("Localizable", "country", fallback: "Country")
   /// Detail color
@@ -150,8 +144,6 @@ internal enum L10n {
   internal static let howToTran9 = L10n.tr("Localizable", "howToTran9", fallback: "Proceed back to the app")
   /// Minimalistic music widget
   internal static let justArtworkDesc = L10n.tr("Localizable", "justArtworkDesc", fallback: "Minimalistic music widget")
-  /// LOCKED
-  internal static let locked = L10n.tr("Localizable", "locked", fallback: "LOCKED")
   /// Mail
   internal static let mail = L10n.tr("Localizable", "mail", fallback: "Mail")
   /// No network connection
@@ -160,31 +152,20 @@ internal enum L10n {
   internal static let ok = L10n.tr("Localizable", "ok", fallback: "OK")
   /// Select background Image
   internal static let pickBgImage = L10n.tr("Localizable", "pickBgImage", fallback: "Select background Image")
-  /// PREMIUM
-  /// WIDGET
-  internal static let premiumOverlay = L10n.tr("Localizable", "premiumOverlay", fallback: "PREMIUM\nWIDGET")
-  /// Premium status: 
-  internal static let premiumStatus = L10n.tr("Localizable", "premiumStatus", fallback: "Premium status: ")
   /// Primary Station
   internal static let primaryStation = L10n.tr("Localizable", "primaryStation", fallback: "Primary Station")
-  /// Privacy policy
-  internal static let privacyPolicy = L10n.tr("Localizable", "privacyPolicy", fallback: "Privacy policy")
-  /// Purchase restored
-  internal static let purchaseRestored = L10n.tr("Localizable", "purchaseRestored", fallback: "Purchase restored")
   /// Player is showing incorrect information, why?
   internal static let q1 = L10n.tr("Localizable", "q1", fallback: "Player is showing incorrect information, why?")
-  /// Player seems to be stuck and not responding to any buttons, how can I fix this?
-  internal static let q10 = L10n.tr("Localizable", "q10", fallback: "Player seems to be stuck and not responding to any buttons, how can I fix this?")
   /// Radio Widget is showing Setup Radio station overlay, how can I remove it?
-  internal static let q11 = L10n.tr("Localizable", "q11", fallback: "Radio Widget is showing Setup Radio station overlay, how can I remove it?")
+  internal static let q10 = L10n.tr("Localizable", "q10", fallback: "Radio Widget is showing Setup Radio station overlay, how can I remove it?")
   /// After pressing the Play button on Radio Widget, no station starts playing, why?
-  internal static let q12 = L10n.tr("Localizable", "q12", fallback: "After pressing the Play button on Radio Widget, no station starts playing, why?")
+  internal static let q11 = L10n.tr("Localizable", "q11", fallback: "After pressing the Play button on Radio Widget, no station starts playing, why?")
   /// There are no Countries, nor Radio Stations available when editing Radio Widgets, why?
-  internal static let q13 = L10n.tr("Localizable", "q13", fallback: "There are no Countries, nor Radio Stations available when editing Radio Widgets, why?")
+  internal static let q12 = L10n.tr("Localizable", "q12", fallback: "There are no Countries, nor Radio Stations available when editing Radio Widgets, why?")
   /// There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?
-  internal static let q14 = L10n.tr("Localizable", "q14", fallback: "There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?")
+  internal static let q13 = L10n.tr("Localizable", "q13", fallback: "There are no Countries available when editing Radio Widgets even when device has internet connection, how to display those?")
   /// Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?
-  internal static let q15 = L10n.tr("Localizable", "q15", fallback: "Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?")
+  internal static let q14 = L10n.tr("Localizable", "q14", fallback: "Music from Widget keeps playing even after pressing the pause/stop button, how can I stop it?")
   /// How can I refresh Player to show latest informations?
   internal static let q2 = L10n.tr("Localizable", "q2", fallback: "How can I refresh Player to show latest informations?")
   /// Can I use Widgets with 3rd party Streaming app?
@@ -199,8 +180,8 @@ internal enum L10n {
   internal static let q7 = L10n.tr("Localizable", "q7", fallback: "Widgets are not available in Widget Center, how can I add them?")
   /// Visualizer Widget is stuck at same picture. How can I reload it?
   internal static let q8 = L10n.tr("Localizable", "q8", fallback: "Visualizer Widget is stuck at same picture. How can I reload it?")
-  /// Some Widgets are showing PREMIUM WIDGET overlay, how can I remove it?
-  internal static let q9 = L10n.tr("Localizable", "q9", fallback: "Some Widgets are showing PREMIUM WIDGET overlay, how can I remove it?")
+  /// Player seems to be stuck and not responding to any buttons, how can I fix this?
+  internal static let q9 = L10n.tr("Localizable", "q9", fallback: "Player seems to be stuck and not responding to any buttons, how can I fix this?")
   /// Clean medium Radio widget
   internal static let radioModernDesc = L10n.tr("Localizable", "radioModernDesc", fallback: "Clean medium Radio widget")
   /// Setup Radio Station in application
@@ -219,8 +200,6 @@ internal enum L10n {
   internal static let requestStatus = L10n.tr("Localizable", "requestStatus", fallback: "Status: ")
   /// Music Access
   internal static let requestTitle = L10n.tr("Localizable", "requestTitle", fallback: "Music Access")
-  /// Restore purchase
-  internal static let restorePurchase = L10n.tr("Localizable", "restorePurchase", fallback: "Restore purchase")
   /// Secondary Station
   internal static let secondaryStation = L10n.tr("Localizable", "secondaryStation", fallback: "Secondary Station")
   /// Settings
@@ -233,8 +212,6 @@ internal enum L10n {
   internal static let shuffle = L10n.tr("Localizable", "shuffle", fallback: "SHUFFLE")
   /// iShuffle small music player
   internal static let shuffleDesc = L10n.tr("Localizable", "shuffleDesc", fallback: "iShuffle small music player")
-  /// Simplesong Premium
-  internal static let simplePremium = L10n.tr("Localizable", "simplePremium", fallback: "Simplesong Premium")
   /// Simplesong
   internal static let simplesong = L10n.tr("Localizable", "simplesong", fallback: "Simplesong")
   /// Simple music widget
@@ -247,8 +224,6 @@ internal enum L10n {
   internal static let station = L10n.tr("Localizable", "station", fallback: "Station")
   /// Tailored Design
   internal static let tailoredDesign = L10n.tr("Localizable", "tailoredDesign", fallback: "Tailored Design")
-  /// Terms of use
-  internal static let termsUse = L10n.tr("Localizable", "termsUse", fallback: "Terms of use")
   /// Clean small widget
   internal static let theButtonDesc = L10n.tr("Localizable", "theButtonDesc", fallback: "Clean small widget")
   /// Clean medium widget
@@ -261,18 +236,6 @@ internal enum L10n {
   internal static let transparentWorkshopTitle = L10n.tr("Localizable", "transparentWorkshopTitle", fallback: "Transparent Image Workshop")
   /// X
   internal static let twitter = L10n.tr("Localizable", "twitter", fallback: "X")
-  /// Unlocks all Widgets for a lifetime
-  internal static let unlockAll = L10n.tr("Localizable", "unlockAll", fallback: "Unlocks all Widgets for a lifetime")
-  /// UNLOCKED
-  internal static let unlocked = L10n.tr("Localizable", "unlocked", fallback: "UNLOCKED")
-  /// Unlocks all of the Simplesong Widgets
-  internal static let unlockOne = L10n.tr("Localizable", "unlockOne", fallback: "Unlocks all of the Simplesong Widgets")
-  /// Unlock Premium
-  internal static let unlockPremium = L10n.tr("Localizable", "unlockPremium", fallback: "Unlock Premium")
-  /// Lifetime access to Premium
-  internal static let unlockThree = L10n.tr("Localizable", "unlockThree", fallback: "Lifetime access to Premium")
-  /// Regular updates and improvements
-  internal static let unlockTwo = L10n.tr("Localizable", "unlockTwo", fallback: "Regular updates and improvements")
   /// Version
   internal static let version = L10n.tr("Localizable", "version", fallback: "Version")
   /// Visualization

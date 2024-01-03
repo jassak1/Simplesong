@@ -11,6 +11,5 @@ import Foundation
 enum SettingsNavPath {
     case aboutScreen
     case faqScreen
-    case iapScreen
     case requestScreen
 }
